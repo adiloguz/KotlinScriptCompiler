@@ -10,7 +10,7 @@ Bu basit bash betiği, bir Kotlin dosyasını derleyip çalıştırmak için kul
 Betik, şu şekilde çalıştırılır:
 
 ```bash
-./script.sh <kotlin_dosyası>
+./compile.sh <kotlin_dosyası>
 ```
 
 - `<kotlin_dosyası>`: Derlenip çalıştırılacak Kotlin dosyasının adı.
@@ -18,13 +18,13 @@ Betik, şu şekilde çalıştırılır:
 #### Örnek Kullanım
 
 ```bash
-./script.sh hello.kt
+./compile.sh hello.kt
 ```
 
 Bu örnek, `hello.kt` adlı Kotlin dosyasını derler ve çalıştırır.
 
 
-#EN
+# EN
 
 ### Kotlin Script Compiler and Runner
 
@@ -35,7 +35,7 @@ This simple bash script is used to compile and run a Kotlin file. The script tak
 The script is executed as follows:
 
 ```bash
-./script.sh <kotlin_file>
+./compile.sh <kotlin_file>
 ```
 
 - `<kotlin_file>`: The name of the Kotlin file to be compiled and executed.
@@ -43,7 +43,7 @@ The script is executed as follows:
 #### Example Usage
 
 ```bash
-./script.sh hello.kt
+./compile.sh hello.kt
 ```
 
 This example compiles and runs the Kotlin file named `hello.kt`.
